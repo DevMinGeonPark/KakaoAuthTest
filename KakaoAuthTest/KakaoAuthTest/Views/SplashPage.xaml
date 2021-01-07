@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KakaoAuthTest.Views.SplashPage"
+             xmlns:prismbehavior="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+>
+    <ContentPage.Behaviors>
+        <prismbehavior:EventToCommandBehavior EventName="Appearing" 
+                                        Command="{Binding SplashScreenCommand}" CommandParameter="{x:Reference SImage}"/>
+    </ContentPage.Behaviors>
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Image x:Name="SImage" Source="{Binding SplashImagePath}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

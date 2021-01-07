@@ -1,0 +1,9 @@
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\KakaoAuthTest.csprojAssemblyReference.cache
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\Views\LottieAnimationPage.xaml.g.cs
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\Views\SplashPage.xaml.g.cs
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\KakaoAuthTest.AssemblyInfoInputs.cache
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\KakaoAuthTest.AssemblyInfo.cs
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\KakaoAuthTest.csproj.CoreCompileInputs.cache
