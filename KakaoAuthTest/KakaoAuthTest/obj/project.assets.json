@@ -167,6 +167,19 @@
           "lib/netstandard1.6/Xamarin.Auth.dll": {}
         }
       },
+      "Xamarin.Auth.XamarinForms/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Auth": "1.7.0",
+          "Xamarin.Forms": "2.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.6/Xamarin.Auth.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Xamarin.Auth.XamarinForms.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.6.0": {
         "type": "package",
         "dependencies": {
@@ -1056,6 +1069,25 @@
         "xamarin.auth.nuspec"
       ]
     },
+    "Xamarin.Auth.XamarinForms/1.7.0": {
+      "sha512": "WsIfZawkpIAY2G251Yjj9PiJKvJpFKPRZglfCrAnL5XybvqVLuYjF6TGaSvIC1V8LPZ9HkN+LLkQcJI6rQvQ1Q==",
+      "type": "package",
+      "path": "xamarin.auth.xamarinforms/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Xamarin.Auth.XamarinForms.dll",
+        "lib/Xamarin.iOS10/Xamarin.Auth.XamarinForms.dll",
+        "lib/netstandard1.0/Xamarin.Auth.XamarinForms.dll",
+        "lib/netstandard1.6/Xamarin.Auth.XamarinForms.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10/Xamarin.Auth.XamarinForms.dll",
+        "lib/uap10.0/Xamarin.Auth.XamarinForms.dll",
+        "lib/uap10.0/Xamarin.Auth.XamarinForms.pdb",
+        "lib/uap10.0/Xamarin.Auth.XamarinForms.pri",
+        "xamarin.auth.xamarinforms.1.7.0.nupkg.sha512",
+        "xamarin.auth.xamarinforms.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.6.0": {
       "sha512": "geJYnjTyPv2npClIkBxLXk9cOV9CPwj/oayA8I4+6NpZc/dIiYxax36m25SW8TrCMR/rvyY44fZBjWBvj7BCQQ==",
       "type": "package",
@@ -1479,6 +1511,7 @@
       "Prism.Unity.Forms >= 8.0.0.1909",
       "Xam.Plugins.Settings >= 3.1.1",
       "Xamarin.Auth >= 1.7.0",
+      "Xamarin.Auth.XamarinForms >= 1.7.0",
       "Xamarin.Essentials >= 1.6.0",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
       "Xamarin.FFImageLoading.Transformations >= 2.4.11.982",
@@ -1556,6 +1589,10 @@
             "version": "[3.1.1, )"
           },
           "Xamarin.Auth": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
+          "Xamarin.Auth.XamarinForms": {
             "target": "Package",
             "version": "[1.7.0, )"
           },

@@ -15,7 +15,6 @@ namespace KakaoAuthTest.ViewModels
         {
             Title = "Main Page";
         }
-
         #region Property Area
         /// <summary>
         /// User 상세 정보

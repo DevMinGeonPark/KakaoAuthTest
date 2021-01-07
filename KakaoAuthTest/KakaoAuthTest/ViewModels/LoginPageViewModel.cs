@@ -65,7 +65,7 @@ namespace KakaoAuthTest.ViewModels
         #region Messaging Setting Area
         void MessagingInit()
         {
-            MessagingCenter.Subscribe<User, bool>(this, MessengerKeys.AuthenticationRequested, OnAuthenticationChanged);
+            MessagingCenter.Subscribe<User, bool>(this, MessengerKey.AuthenticationRequested, OnAuthenticationChanged);
         }
 
         private async void OnAuthenticationChanged(User user, bool isLogin)

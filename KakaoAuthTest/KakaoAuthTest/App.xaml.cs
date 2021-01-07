@@ -3,7 +3,7 @@ using Prism.Ioc;
 using Prism.Unity;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-//using KakaoAuthTest.Services.Authentication;
+using KakaoAuthTest.Services.Authentication;
 using KakaoAuthTest.Views;
 
 namespace KakaoAuthTest

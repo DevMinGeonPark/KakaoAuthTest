@@ -7,3 +7,11 @@ C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\ne
 C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\KakaoAuthTest.AssemblyInfoInputs.cache
 C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\KakaoAuthTest.AssemblyInfo.cs
 C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\KakaoAuthTest.csproj.CoreCompileInputs.cache
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\KakaoAuthTest.dll
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\ref\KakaoAuthTest.dll
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\KakaoAuthTest.pdb
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\bin\Debug\netstandard2.0\KakaoAuthTest.deps.json
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\bin\Debug\netstandard2.0\KakaoAuthTest.dll
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\bin\Debug\netstandard2.0\ref\KakaoAuthTest.dll
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\bin\Debug\netstandard2.0\KakaoAuthTest.pdb
+C:\Users\min\source\repos\KakaoAuthTest\KakaoAuthTest\KakaoAuthTest\obj\Debug\netstandard2.0\XamlC.stamp

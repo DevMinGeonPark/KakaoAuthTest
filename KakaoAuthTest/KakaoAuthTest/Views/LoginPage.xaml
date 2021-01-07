@@ -2,22 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KakaoAuthTest.Views.LoginPage"
-             xmlns:models="clr-namespace:XamarinSNSLogin.Models"
+             xmlns:models="clr-namespace:KakaoAuthTest.Models"
             >
     <ContentPage.Content>
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-            <Button Image="kakao_account_login_btn_medium_narrow.png" 
+            <Button Image="kakao_account_login_btn_medium_narrow_ov.png" 
                     Command="{Binding SNSSignInCommand}"
                     CommandParameter="{x:Static models:SNSProvider.Kakao}"/>
-            <Button Image="btn_login_base.png"
-                    Command="{Binding SNSSignInCommand}"
-                    CommandParameter="{x:Static models:SNSProvider.Line}"/>
-            <Button Image="login_button_png_18029.png"
-                    Command="{Binding SNSSignInCommand}"
-                    CommandParameter="{x:Static models:SNSProvider.Facebook}"/>
-            <Button Image="naver_account_login_btn.png"
-                    Command="{Binding SNSSignInCommand}"
-                    CommandParameter="{x:Static models:SNSProvider.Naver}"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

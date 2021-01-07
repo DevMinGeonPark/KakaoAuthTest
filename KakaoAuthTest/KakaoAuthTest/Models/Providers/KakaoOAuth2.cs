@@ -30,13 +30,13 @@ namespace KakaoAuthTest.Models.Providers
             ProviderName = "Kakao";
             Description = "Kakao Login Provider";
             Provider = SNSProvider.Kakao;
-            ClientId = "aead1de903d78e0dd6f170187424efef"; //<<자신의 계정으로 대체 필요>>
+            ClientId = "a9dd84cab4122486109e58120c4a3572"; //<<자신의 계정으로 대체 필요>>
             ClientSecret = null;
             Scope = null;
             AuthorizationUri = new Uri("https://kauth.kakao.com/oauth/authorize");
             RequestTokenUri = new Uri("https://kauth.kakao.com/oauth/token");
-            RedirectUri = new Uri("https://www.naver.com");//자신의 블로그나 홈페이지 주소
-            UserInfoUri = new Uri("https://kapi.kakao.com/v1/user/me");
+            RedirectUri = new Uri("https://www.naver.com/oauth");//자신의 블로그나 홈페이지 주소
+            UserInfoUri = new Uri("https://kapi.kakao.com/v2/user/me");
         }
 
         #region Implement Abstract Method
@@ -46,9 +46,9 @@ namespace KakaoAuthTest.Models.Providers
             string token = account.Properties["access_token"];
             string refreshToke = account.Properties["refresh_token"];
             int expriesIn;
-            int.TryParse(account.Properties["expires_in"], out expriesIn);
+            int.TryParse(account.Properties["expires_in"], out expriesIn); //?
 
-            var request = new OAuth2Request("GET", UserInfoUri, null, account);
+            var request = new OAuth2Request("GET", UserInfoUri, null, account); //null
             var response = await request.GetResponseAsync();
             if (response != null && response.StatusCode == HttpStatusCode.OK)
             {

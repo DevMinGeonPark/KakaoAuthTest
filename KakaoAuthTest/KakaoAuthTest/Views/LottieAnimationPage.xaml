@@ -16,8 +16,7 @@
             <lottie:AnimationView 
             x:Name="animationView" 
             Animation="thirsty.json" 
-            Loop="true" 
-            AutoPlay="true"
+            
             VerticalOptions="FillAndExpand" 
             HorizontalOptions="FillAndExpand" />
         </StackLayout>

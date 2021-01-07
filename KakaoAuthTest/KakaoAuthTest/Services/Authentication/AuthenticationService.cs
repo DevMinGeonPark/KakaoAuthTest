@@ -56,7 +56,7 @@ namespace KakaoAuthTest.Services.Authentication
                         var user = await oAuth2.GetUserInfoAsync(e.Account);
 
                         AppSettings.User = user;
-                        MessagingCenter.Send(user, MessengerKeys.AuthenticationRequested, true);
+                        MessagingCenter.Send(user, MessengerKey.AuthenticationRequested, true);
                         Debug.WriteLine("Authentication Success");
                     }
                 };
