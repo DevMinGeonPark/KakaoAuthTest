@@ -25,7 +25,7 @@ namespace KakaoAuthTest.Droid
 
             global::Xamarin.Auth.Presenters.XamarinAndroid.AuthenticationConfiguration.Init(this, savedInstanceState); //FFImageLoading 초기화
             CachedImageRenderer.Init(true);
-            AnimationViewRenderer().init();
+            //AnimationViewRenderer().init();
             LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TdZc1G+nZaaumEYxb1R7pqLES5bhWwU+rKvuQMEE7fMa9B4Gx6e9xpLJsDFG60usp8Xm94g2kuJZLDbNLw9xrQ==",
+  "dgSpecHash": "4Ujr2uuASNXcv6etoay/6fe+3QOUNXsYq1Ti9RlRvMICDYbJVZqlLRjZUcl1fpIy15qrRwDSVCo5UCbuFPElFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\min\\source\\repos\\KakaoAuthTest\\KakaoAuthTest\\KakaoAuthTest.Android\\KakaoAuthTest.Android.csproj",
   "expectedPackageFiles": [
@@ -89,6 +89,7 @@
     "C:\\Users\\min\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.6\\xamarin.androidx.viewpager.1.0.0.6.nupkg.sha512",
     "C:\\Users\\min\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.7\\xamarin.androidx.viewpager2.1.0.0.7.nupkg.sha512",
     "C:\\Users\\min\\.nuget\\packages\\xamarin.auth\\1.7.0\\xamarin.auth.1.7.0.nupkg.sha512",
+    "C:\\Users\\min\\.nuget\\packages\\xamarin.auth.xamarinforms\\1.7.0\\xamarin.auth.xamarinforms.1.7.0.nupkg.sha512",
     "C:\\Users\\min\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
     "C:\\Users\\min\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
     "C:\\Users\\min\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",

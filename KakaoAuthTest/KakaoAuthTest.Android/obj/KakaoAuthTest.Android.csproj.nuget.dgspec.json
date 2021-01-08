@@ -140,6 +140,10 @@
               "target": "Package",
               "version": "[1.7.0, )"
             },
+            "Xamarin.Auth.XamarinForms": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.0, )"

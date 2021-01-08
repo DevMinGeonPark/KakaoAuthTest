@@ -30,7 +30,7 @@ namespace KakaoAuthTest.ViewModels
                                           {
                                               await Task.Delay(3000);
                                               //SNS로긴 정보가 있으면
-                                              if (await authenticationService.UserIsAuthenticatedAndValidAsync())
+                                              if (await authenticationService.UserIsAuthenticatedAndValidAsync()) 
                                               {
                                                   var user = AppSettings.User;
                                                   var p = new NavigationParameters();

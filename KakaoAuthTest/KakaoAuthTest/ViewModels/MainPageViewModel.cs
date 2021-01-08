@@ -1,6 +1,7 @@
 ﻿using Prism.Navigation;
 using KakaoAuthTest.Models;
 
+
 namespace KakaoAuthTest.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
@@ -23,6 +24,11 @@ namespace KakaoAuthTest.ViewModels
         {
             get { return user; }
             set { SetProperty(ref user, value); }
+        }
+
+        public string GetUserUrl
+        {
+            get { return user.PictureUrl; }
         }
         #endregion
 
