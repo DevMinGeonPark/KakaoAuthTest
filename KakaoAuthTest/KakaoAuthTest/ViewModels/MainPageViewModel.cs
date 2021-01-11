@@ -1,7 +1,6 @@
 ﻿using Prism.Navigation;
 using KakaoAuthTest.Models;
 
-
 namespace KakaoAuthTest.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
@@ -9,7 +8,6 @@ namespace KakaoAuthTest.ViewModels
         #region Private Fields
         private User user;
         #endregion
-
 
         public MainPageViewModel(INavigationService navigationService)
             : base(navigationService)
@@ -26,19 +24,17 @@ namespace KakaoAuthTest.ViewModels
             set { SetProperty(ref user, value); }
         }
 
-        public string GetUserUrl
-        {
-            get { return user.PictureUrl; }
-        }
+
         #endregion
 
         #region override method area
-        public override void OnNavigatingTo(NavigationParameters parameters)
+        public override void OnNavigatedTo(INavigationParameters parameters)
         {
-            base.OnNavigatingTo(parameters);
+            base.OnNavigatedTo(parameters);
 
             if (parameters.ContainsKey("user"))
                 User = (User)parameters["user"];
+            System.Console.WriteLine("d");
         }
         #endregion
     }

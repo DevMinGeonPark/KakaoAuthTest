@@ -1,9 +1,10 @@
 ﻿using Prism.Mvvm;
 using Prism.Navigation;
+using System.ComponentModel;
 
 namespace KakaoAuthTest.ViewModels
 {
-    public class ViewModelBase : BindableBase, IDestructible
+    public class ViewModelBase : BindableBase, IDestructible, INavigatedAware
     {
         protected INavigationService NavigationService { get; private set; }
 
@@ -27,24 +28,18 @@ namespace KakaoAuthTest.ViewModels
             NavigationService = navigationService;
         }
 
-        public virtual void OnNavigatedFrom(NavigationParameters parameters)
-        {
-
-        }
-
-        public virtual void OnNavigatedTo(NavigationParameters parameters)
-        {
-
-        }
-
-        public virtual void OnNavigatingTo(NavigationParameters parameters)
-        {
-
-        }
-
         public virtual void Destroy()
         {
 
+        }
+
+        public virtual void OnNavigatedFrom(INavigationParameters parameters)
+        {
+
+        }
+
+        public virtual void OnNavigatedTo(INavigationParameters parameters)
+        {
         }
     }
 }

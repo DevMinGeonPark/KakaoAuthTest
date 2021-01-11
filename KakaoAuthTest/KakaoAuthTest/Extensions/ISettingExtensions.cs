@@ -22,6 +22,7 @@ namespace KakaoAuthTest.Extensions
 
             try
             {
+                JsonSerializerSettings serializeSettings = GetSerializerSettings(); //
                 result = JsonConvert.DeserializeObject<T>(serialized);
             }
             catch (Exception ex)
